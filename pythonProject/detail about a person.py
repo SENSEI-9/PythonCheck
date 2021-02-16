@@ -1,0 +1,18 @@
+name=(input('your name'))
+age=(input('your age'))
+address=(input('your address'))
+job=(input('your job'))
+attendance=int(input('your attendance'))
+marks_in_programming_=int(input('your programming marks'))
+marks_in_maths_=int(input('your maths marks'))
+marks_in_computer_architecture_=int(input('your computer architecture marks'))
+total_marks=float(marks_in_maths_+marks_in_programming_+marks_in_computer_architecture_)
+percentage=float(total_marks/300*100)
+
+print('your name is',name)
+print('your age is',age)
+print('your address is',address)
+print('your job is',job)
+print('your total marks is',total_marks)
+print('your percentage is',percentage)
+
